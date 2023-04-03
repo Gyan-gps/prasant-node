@@ -26,7 +26,7 @@ const {
 
 const userSchema = require("./userSchema");
 
-const bookSchema = require("./models/LibraryModel");
+const bookSchema = require("./models/libraryModel");
 
 const { isAuth } = require("./middleWares/AuthMiddleWare");
 
